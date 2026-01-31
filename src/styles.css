@@ -1,0 +1,41 @@
+/* Base */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; line-height: 1.5; }
+
+/* Layout */
+.container { width: min(1100px, 92%); margin: 0 auto; padding: 24px 0; }
+
+/* Hero background (like your example) */
+.hero {
+  min-height: 240px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: white;
+
+  /* Use a background image later if you want:
+     background-image: url("../assets/hero.jpg");
+  */
+  background:
+    linear-gradient(0deg, rgba(0,0,0,.55), rgba(0,0,0,.55)),
+    radial-gradient(circle at 20% 20%, rgba(0,255,150,.35), transparent 55%),
+    radial-gradient(circle at 80% 30%, rgba(0,150,255,.35), transparent 55%),
+    #1a1a1a;
+}
+
+.hero__content { padding: 40px 16px; }
+.hero__content h1 { margin: 0 0 8px; font-size: clamp(28px, 4vw, 44px); }
+.hero__content p { margin: 0; max-width: 720px; }
+
+/* Controls */
+.controls h2 { margin: 0 0 12px; }
+.tabs { list-style: none; display: flex; gap: 10px; padding: 0; margin: 0 0 16px; flex-wrap: wrap; }
+#search-form { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+#search-input { padding: 8px 10px; min-width: 240px; }
+
+/* Gallery grid */
+.grid { list-style: none; padding: 0; margin: 0; display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+
+/* Footer */
+footer { padding: 24px 0; border-top: 1px solid #eee; }

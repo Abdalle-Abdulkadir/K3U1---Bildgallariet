@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>K3U1 – Image Gallery</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script src="./src/main.js" defer></script>
+  </head>
+
+  <body>
+    <header class="hero" aria-labelledby="page-title">
+      <div class="hero__content">
+        <h1 id="page-title">JavaScript Image Gallery</h1>
+        <p>Create a responsive gallery with categories, search, and a lightbox view.</p>
+      </div>
+    </header>
+
+    <main class="container" id="main-content">
+      <section class="controls" aria-labelledby="controls-title">
+        <h2 id="controls-title">Filter & Search</h2>
+
+        <nav aria-label="Categories">
+          <ul id="category-tabs" class="tabs">
+            <!-- Tabs will be rendered later -->
+          </ul>
+        </nav>
+
+        <form id="search-form" role="search" aria-label="Search images">
+          <label for="search-input">Search</label>
+          <input id="search-input" name="q" type="search" autocomplete="off" />
+          <button type="submit">Search</button>
+        </form>
+      </section>
+
+      <section aria-labelledby="gallery-title">
+        <h2 id="gallery-title">Gallery</h2>
+        <ul id="gallery" class="grid" aria-live="polite">
+          <!-- Thumbnails will be rendered later -->
+        </ul>
+      </section>
+
+      <dialog id="image-modal" aria-label="Enlarged image">
+        <button id="close-modal" type="button">Close</button>
+        <figure>
+          <img id="modal-image" alt="" />
+          <figcaption id="modal-caption"></figcaption>
+        </figure>
+      </dialog>
+    </main>
+
+    <footer class="container">
+      <small>© K3U1 – Image Gallery</small>
+    </footer>
+  </body>
+</html>
+
