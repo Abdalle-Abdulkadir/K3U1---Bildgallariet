@@ -34,7 +34,7 @@
       </section>
 
       <section aria-labelledby="gallery-title">
-        <h2 id="gallery-title">Gallery</h2>
+        <h2 id="gallery-title">Gallery (All)</h2>
         <ul id="gallery" class="grid" aria-live="polite">
           <!-- Thumbnails will be rendered later -->
         </ul>
@@ -52,6 +52,11 @@
     <footer class="container">
       <small>© K3U1 – Image Gallery</small>
     </footer>
+    <!-- Lightbox (shows full image on thumbnail click) -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="lightboxClose" class="lightbox__close" aria-label="Close">✕</button>
+    <img id="lightboxImg" class="lightbox__img" alt="" />
+    </div>
   </body>
 </html>
 

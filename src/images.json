@@ -1,0 +1,397 @@
+{
+  "categories": [
+    {
+      "id": "animals",
+      "title": "Animals",
+      "items": [
+        {
+            "id": "lion",
+            "title": "Lion",
+            "src": "src/images/animals/lion_in_savannah.png",
+            "alt": "Lion standing in savannah",
+            "tags": ["wild", "mammal"]
+        },
+        {
+            "id": "elephant",
+            "title": "Elephant",
+            "src": "src/images/animals/elephant.jpg",
+            "alt": "Elephant in the wild",
+            "tags": ["wild", "mammal"]
+        },
+        {
+  "id": "horse",
+  "title": "Beautiful Horse",
+  "src": "src/images/animals/Beautifull_Horse.webp",
+  "alt": "Arabian race horse known for speed and brilliance",
+  "tags": ["wild", "mammal", "horse", "speed"]
+},
+{
+  "id": "bengal-tiger",
+  "title": "Bengal Tiger",
+  "src": "src/images/animals/Bengal_tiger.jpg",
+  "alt": "Wild Bengal tiger, one of the most dangerous predators on Earth",
+  "tags": ["wild", "predator", "mammal", "tiger"]
+},
+{
+  "id": "camel",
+  "title": "Camel",
+  "src": "src/images/animals/Camel.webp",
+  "alt": "Camel, a vital animal in the Arab world and Somalia, known for endurance",
+  "tags": ["mammal", "desert", "endurance", "camel"]
+},
+{
+  "id": "eagle",
+  "title": "Eagle",
+  "src": "src/images/animals/Eagle.jpg",
+  "alt": "Strong and beautiful eagle, national symbol of many countries",
+  "tags": ["bird", "predator", "eagle", "national-symbol"]
+},
+{
+  "id": "kangaroo",
+  "title": "Kangaroo",
+  "src": "src/images/animals/kangaroo.webp",
+  "alt": "Kangaroo in the Australian outback",
+  "tags": ["wild", "australia"],
+  "description": "Lives in Australia, known for powerful jumps and strong legs."
+},
+{
+  "id": "killer-whale",
+  "title": "Killer Whale",
+  "src": "src/images/animals/killer_whale.webp",
+  "alt": "Killer whale in the ocean",
+  "tags": ["ocean", "predator"],
+  "description": "Ocean predator, extremely strong and highly intelligent."
+},
+{
+  "id": "giraffe",
+  "title": "Giraffe",
+  "src": "src/images/animals/girrafe.jpg",
+  "alt": "Giraffe on the African savannah",
+  "tags": ["africa", "wild"],
+  "description": "Tallest land animal, lives on the African savannah."
+},
+{
+  "id": "polar-bear",
+  "title": "Polar Bear",
+  "src": "src/images/animals/polar_bear.jpg",
+  "alt": "Polar bear in the Arctic",
+  "tags": ["arctic", "predator"],
+  "description": "Arctic predator, very strong and adapted to cold."
+}
+
+
+
+      ]
+    },
+    {
+      "id": "basketball",
+      "title": "Basketball",
+      "items": [
+        {
+            "id": "lebron",
+            "title": "LeBron James",
+            "src": "src/images/Basketball/king Lebron.webp",
+            "alt": "LeBron James NBA all time scorrer and legend",
+            "tags": ["basketball", "nba", "player"]
+        },
+        {
+            "id": "anthony-davis",
+            "title": "Anthony Davis",
+            "src": "src/images/Basketball/anthony_davis_dallas.jpg",
+            "alt": "Anthony Davis Nba champion and currenlt playing for the Dallas Mavericks",
+            "tags": ["basketball", "nba", "player"]
+        },
+        {
+            "id": "stephen-Curry",
+            "title": "stephen Curry",
+            "src": "src/images/Basketball/Stephen_curry.webp",
+            "alt": "Stephen Curry making the most three points in 2021-2022 NBA Season",
+            "tags": ["basketball", "nba", "player"]
+        },
+        {
+            "id": "victor-wembanyama",
+            "title": "Victor Wembanyama",
+            "src": "src/images/Basketball/viktor_Wemby.avif",
+            "alt": "Victor Wembanyama, a young and talented French NBA player for the San Antonio Spurs.",
+            "tags": ["basketball", "nba", "rookie", "spurs", "player"]
+        },
+        {
+            "id": "kawhi-leonard",
+            "title": "Kawhi Leonard",
+            "src": "src/images/Basketball/kawhi_Leonard.webp",
+            "alt": "Kawhi Leonard, former NBA champion with the Toronto Raptors and an NBA superstar.",
+            "tags": ["basketball", "nba", "champion", "raptors", "player"]
+        },
+        {
+            "id": "anthony-edwards",
+            "title": "Anthony Edwards",
+            "src": "src/images/Basketball/Anthony_Edwards.jpg",
+            "alt": "Anthony Edwards, NBA superstar for the Minnesota Timberwolves and a dominant player.",
+            "tags": ["basketball", "nba", "timberwolves", "superstar", "player"]
+        },
+        {
+            "id": "giannis-antetokounmpo",
+            "title": "Giannis Antetokounmpo",
+            "src": "src/images/Basketball/Giannis_Milwuakee.avif",
+            "alt": "Giannis Antetokounmpo, Milwaukee Bucks player, former NBA champion and NBA MVP",
+            "tags": ["basketball", "nba", "bucks", "mvp", "champion", "player"]
+        },
+        {
+            "id": "jason-tatum",
+            "title": "Jason Tatum",
+            "src": "src/images/Basketball/Jason_tatum.webp",
+            "alt": "Jason Tatum, Boston Celtics superstar and former NBA champion",
+            "tags": ["basketball", "nba", "celtics", "champion", "superstar", "player"]
+        },
+        {
+            "id": "shai-gilgeous-alexander",
+            "title": "Shai Gilgeous-Alexander",
+            "src": "src/images/Basketball/shai_gilgeous_Alexander.avif",
+            "alt": "Shai Gilgeous-Alexander, Oklahoma City Thunder superstar and the reigning NBA MVP.",
+            "tags": ["basketball", "nba", "mvp", "thunder", "superstar", "player"]
+        },
+        {
+
+            "id": "kevin-durant",
+            "title": "Kevin Durant",
+            "src": "src/images/Basketball/kevin_durant.jpg",
+            "alt": "Kevin Durant, Houston Rockets superstar, former NBA champion and former NBA MVP.",
+            "tags": ["basketball", "nba", "rockets", "champion", "mvp", "scorer", "superstar", "player"]
+        }
+    ]
+    },
+    {
+      "id": "football",
+      "title": "Football",
+      "items": [
+        {
+            "id": "lionel-messi",
+            "title": "Lionel Messi",
+            "src": "src/images/Football/Messi_worldcup_2022.jpg",
+            "alt": "Lionel Messi, the greatest footballer in history, World Cup winner with Argentina",
+            "tags": ["football", "argentina", "world cup", "legend", "goat"]
+        },
+        {
+            "id": "cristiano-ronaldo",
+            "title": "Cristiano Ronaldo",
+            "src": "src/images/Football/CR7_champions_League.jpg",
+            "alt": "Cristiano Ronaldo, multiple Champions League winner and great scorer",
+            "tags": ["football", "ronaldo", "champions league", "top scorer", "legend"]
+        },
+        {
+            "id": "mo-salah",
+            "title": "Mohamed Salah",
+            "src": "src/images/Football/Mo_Salah_Liverpool_Legend.jpg",
+            "alt": "Mohamed Salah, Liverpool legend and one of the greatest players in Premier League history",
+            "tags": ["football", "liverpool", "premier league", "salah", "legend"]
+        },
+        {
+            "id": "declan-rice",
+            "title": "Declan Rice",
+            "src": "src/images/Football/Declan_Rice.jpg",
+            "alt": "Declan Rice, talented Arsenal midfielder and England international",
+            "tags": ["football", "arsenal", "premier league", "midfielder", "england"]
+        },
+        {
+            "id": "erling-haaland",
+            "title": "Erling Haaland",
+            "src": "src/images/Football/Erling_Haaland.avif",
+            "alt": "Erling Haaland, Manchester City forward and Norway international",
+            "tags": ["manchester city", "norway", "premier league", "striker", "goal scorer"]
+        },
+        {
+            "id": "jude-bellingham",
+            "title": "Jude Bellingham",
+            "src": "src/images/Football/Jude_Bellingham.webp",
+            "alt": "Jude Bellingham, Real Madrid superstar and England international",
+            "tags": ["football", "real madrid", "england", "midfielder", "superstar"]
+        },
+        {
+            "id": "kylian-mbappe",
+            "title": "Kylian Mbappe",
+            "src": "src/images/Football/Kylian_Mpape.avif",
+            "alt": "Kylian Mbappe, French international and Real Madrid star forward, one of the best players in the world",
+            "tags": ["football", "france", "real madrid", "forward", "goal scorer"]
+        },
+        {
+            "id": "morgan-rogers",
+            "title": "Morgan Rogers",
+            "src": "src/images/Football/Morgan_Rogers.png",
+            "alt": "Morgan Rogers, Aston Villa talented player and England international",
+            "tags": ["football", "aston villa", "england", "premier league", "talent"]
+        },
+        {
+            "id": "pedri",
+            "title": "Pedri",
+            "src": "src/images/Football/Pedri.webp",
+            "alt": "Pedri, Spanish midfielder and Barcelona maestro",
+            "tags": ["football", "barcelona", "spain", "midfielder", "playmaker"]
+        },
+        {
+            "id": "virgil-van-dijk",
+            "title": "Virgil van Dijk",
+            "src": "src/images/Football/Virgil_Van_Dijk.webp",
+            "alt": "Virgil van Dijk, Dutch captain and Liverpool defender, one of the top defenders in the world",
+            "tags": ["football", "liverpool", "netherlands", "defender", "captain"]
+        }
+    ]
+    },
+
+
+    {
+      "id": "world-places",
+      "title": "World Places",
+      "items": [
+        {
+            "id": "amazon-rainforest",
+            "title": "Amazon Rainforest",
+            "src": "src/images/world_Places/amazon_Rainforest.jpg",
+            "alt": "Amazon Rainforest, the largest tropical rainforest in the world, known for its biodiversity",
+            "tags": ["world place", "brazil", "rainforest", "nature", "biodiversity"]
+        },
+        {
+            "id": "colosseum",
+            "title": "Colosseum",
+            "src": "src/images/world_Places/Colosseum_at_night.jpg",
+            "alt": "Colosseum in Rome, ancient Roman amphitheater known for gladiator battles",
+            "tags": ["world place", "rome", "italy", "history", "ancient"]
+        },
+        {
+            "id": "grand-canyon",
+            "title": "Grand Canyon",
+            "src": "src/images/world_Places/grand_canyon.jpg",
+            "alt": "Grand Canyon in Arizona, massive natural canyon carved by the Colorado River",
+            "tags": ["world place", "usa", "nature", "canyon", "landmark"]
+        },
+        {
+            "id": "great-barrier-reef",
+            "title": "Great Barrier Reef",
+            "src": "src/images/world_Places/Great_barrier_Reef.jpg",
+            "alt": "Great Barrier Reef in Australia, the world's largest coral reef system",
+            "tags": ["world place", "australia", "reef", "ocean", "nature"]
+        },
+        {
+            "id": "mount-everest",
+            "title": "Mount Everest",
+            "src": "src/images/world_Places/mount_everest.webp",
+            "alt": "Mount Everest, the highest mountain in the world located in the Himalayas",
+            "tags": ["world place", "nepal", "mountain", "himalayas", "highest"]
+        },
+        {
+            "id": "mount-fuji",
+            "title": "Mount Fuji",
+            "src": "src/images/world_Places/Mount_fuji.jpg",
+            "alt": "Mount Fuji in Japan, iconic volcano and national symbol",
+            "tags": ["world place", "japan", "volcano", "mountain", "landmark"]
+        },
+        {
+            "id": "niagara-falls",
+            "title": "Niagara Falls",
+            "src": "src/images/world_Places/Niagra_falls_Canada.jpg",
+            "alt": "Niagara Falls on the US-Canada border, famous powerful waterfalls",
+            "tags": ["world place", "canada", "usa", "waterfall", "nature"]
+        },
+        {
+            "id": "pyramids-of-giza",
+            "title": "Pyramids of Giza",
+            "src": "src/images/world_Places/Pyramids_of_giza.webp",
+            "alt": "Pyramids of Giza in Egypt, ancient wonders and tombs of the pharaohs",
+            "tags": ["world place", "egypt", "pyramids", "history", "ancient"]
+        },
+        {
+            "id": "sahara-desert",
+            "title": "Sahara Desert",
+            "src": "src/images/world_Places/Sahara_Desert.webp",
+            "alt": "Sahara Desert, the largest hot desert in the world located in North Africa",
+            "tags": ["world place", "africa", "desert", "sand", "nature"]
+        },
+        {
+            "id": "taj-mahal",
+            "title": "Taj Mahal",
+            "src": "src/images/world_Places/Taj_Mahal.png",
+            "alt": "Taj Mahal in India, white marble mausoleum known as a symbol of love",
+            "tags": ["world place", "india", "mausoleum", "history", "landmark"]
+        }
+      ]
+    },
+
+
+    {
+      "id": "cities",
+      "title": "Cities",
+      "items": [
+        {
+            "id": "dubai",
+            "title": "Dubai",
+            "src": "src/images/World_cities/Dubai.webp",
+            "alt": "Dubai in the United Arab Emirates, known for Burj Khalifa and luxury skyscrapers",
+            "tags": ["city", "uae", "middle east", "burj khalifa", "modern"]
+        },
+        {
+            "id": "istanbul",
+            "title": "Istanbul",
+            "src": "src/images/World_cities/Istanbul.png",
+            "alt": "Istanbul in Turkey, famous for Hagia Sophia and its location between Europe and Asia",
+            "tags": ["city", "turkey", "europe", "asia", "history"]
+        },
+        {
+            "id": "london",
+            "title": "London",
+            "src": "src/images/World_cities/London.png",
+            "alt": "London in the United Kingdom, known for Big Ben and the River Thames",
+            "tags": ["city", "uk", "england", "big ben", "capital"]
+        },
+        {
+            "id": "mecca",
+            "title": "Mecca",
+            "src": "src/images/World_cities/Mecca.jpg",
+            "alt": "Mecca in Saudi Arabia, holiest city in Islam and home of the Kaaba",
+            "tags": ["city", "saudi arabia", "islam", "kaaba", "religion"]
+        },
+        {
+            "id": "nairobi",
+            "title": "Nairobi",
+            "src": "src/images/World_cities/Nairobi.webp",
+            "alt": "Nairobi in Kenya, known for Nairobi National Park and wildlife near the city",
+            "tags": ["city", "kenya", "africa", "wildlife", "capital"]
+        },
+        {
+            "id": "new-york",
+            "title": "New York",
+            "src": "src/images/World_cities/New_york.jpg",
+            "alt": "New York City in the USA, famous for Statue of Liberty and Times Square",
+            "tags": ["city", "usa", "statue of liberty", "times square", "metropolis"]
+        },
+        {
+            "id": "paris",
+            "title": "Paris",
+            "src": "src/images/World_cities/Paris.webp",
+            "alt": "Paris in France, known for the Eiffel Tower and its art and culture",
+            "tags": ["city", "france", "eiffel tower", "europe", "culture"]
+        },
+        {
+            "id": "rio-de-janeiro",
+            "title": "Rio de Janeiro",
+            "src": "src/images/World_cities/Rio_De_Janeiro.webp",
+            "alt": "Rio de Janeiro in Brazil, famous for Christ the Redeemer and Copacabana beach",
+            "tags": ["city", "brazil", "christ the redeemer", "beach", "south america"]
+        },
+        {
+            "id": "stockholm",
+            "title": "Stockholm",
+            "src": "src/images/World_cities/Stockholm.png",
+            "alt": "Stockholm in Sweden, known for its archipelago and Scandinavian design",
+            "tags": ["city", "sweden", "scandinavia", "archipelago", "capital"]
+        },
+        {
+            "id": "sydney",
+            "title": "Sydney",
+            "src": "src/images/World_cities/Sydney_at_night.png",
+            "alt": "Sydney in Australia, famous for the Sydney Opera House and Harbour Bridge",
+            "tags": ["city", "australia", "opera house", "harbour bridge", "coastal"]
+        }
+
+      ]
+    }
+  ]
+}

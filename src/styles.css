@@ -35,7 +35,27 @@ body { font-family: Arial, sans-serif; line-height: 1.5; }
 #search-input { padding: 8px 10px; min-width: 240px; }
 
 /* Gallery grid */
-.grid { list-style: none; padding: 0; margin: 0; display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.grid { list-style: none; padding: 0; margin: 0; display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 
 /* Footer */
 footer { padding: 24px 0; border-top: 1px solid #eee; }
+
+/* Thumbnails */
+#gallery { 
+  list-style: none; 
+  padding: 0; 
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+#gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  background-color: #f4f4f4;
+  display: block;
+  border-radius: 10px;
+}
+
